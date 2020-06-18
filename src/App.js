@@ -1,13 +1,10 @@
-import React, { Component } from 'react';
-import './App.css';
-import { observer } from 'mobx-react'
+import React from 'react';
+import Market from './components/Market';
 
-@observer
-class App extends Component {
-  render(){
+const App = () => {
   return (
-    <p>This template was created in 15.06.20 11:58 By Ananas</p>
-  )}
+    <Market />
+  )
 }
 
 export default App;
